@@ -15,4 +15,4 @@ Custom units
 Custom views
 
 
-![alt text](CLChart/CLChartScreenShots/LineChart1.png "Description goes here")
+![alt text](CLChartScreenShots/LineChart1.png "Description goes here")

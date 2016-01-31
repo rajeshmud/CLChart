@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Line-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="LineViewController" customModule="CLApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E3Z-nC-tql">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="CLChart" id="jQY-OB-F46"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="E3Z-nC-tql" secondAttribute="trailing" id="Gcg-rt-HAk"/>
+                            <constraint firstItem="E3Z-nC-tql" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="TWL-ib-yvA"/>
+                            <constraint firstItem="E3Z-nC-tql" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="TZt-ig-YWl"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Line" image="first" id="acW-dT-cKf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-320"/>
+        </scene>
+        <!--Bar-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="VerticalBarViewController" customModule="CLApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wXT-JY-lgS">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="CLChart" id="UKN-SF-eO2"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wXT-JY-lgS" secondAttribute="trailing" id="97y-KF-TRe"/>
+                            <constraint firstItem="wXT-JY-lgS" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="HEt-Rk-yYk"/>
+                            <constraint firstItem="wXT-JY-lgS" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="etR-wi-Dfg"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bar" image="first" id="cPa-gy-q4n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--HBar-->
+        <scene sceneID="Smb-ad-eY6">
+            <objects>
+                <viewController id="2lw-9M-h7C" customClass="HorizontalBarViewController" customModule="CLApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Uv-Bv-Fvj"/>
+                        <viewControllerLayoutGuide type="bottom" id="8yl-jU-fOC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0M1-ok-Lx4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x4N-Ab-puo">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="CLChart" id="WMF-lf-ZaW"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x4N-Ab-puo" firstAttribute="top" secondItem="3Uv-Bv-Fvj" secondAttribute="bottom" constant="8" id="7vk-J1-Oqv"/>
+                            <constraint firstItem="x4N-Ab-puo" firstAttribute="leading" secondItem="0M1-ok-Lx4" secondAttribute="leading" id="Hc9-r6-C3S"/>
+                            <constraint firstAttribute="trailing" secondItem="x4N-Ab-puo" secondAttribute="trailing" id="Zjv-h3-ko0"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="HBar" image="first" id="W58-zL-pZg"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ncz-Wm-UjB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="745" y="1039"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="2lw-9M-h7C" kind="relationship" relationship="viewControllers" id="eet-pc-6Yu"/>
+                        <segue destination="1dp-eK-iOn" kind="relationship" relationship="viewControllers" id="um0-Dg-kgE"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-183" y="-77"/>
+        </scene>
+        <!--Band-->
+        <scene sceneID="psK-WE-mWl">
+            <objects>
+                <viewController id="1dp-eK-iOn" customClass="BandedViewController" customModule="CLApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cDB-E7-dHd"/>
+                        <viewControllerLayoutGuide type="bottom" id="KOz-RQ-8DS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UOh-Lp-yJR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gEJ-lp-REY">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="CLChart" id="TpT-tD-eQd"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gEJ-lp-REY" secondAttribute="trailing" id="4hW-qg-x4U"/>
+                            <constraint firstItem="gEJ-lp-REY" firstAttribute="top" secondItem="cDB-E7-dHd" secondAttribute="bottom" constant="8" id="Y79-ho-ZQe"/>
+                            <constraint firstItem="gEJ-lp-REY" firstAttribute="leading" secondItem="UOh-Lp-yJR" secondAttribute="leading" id="vne-lA-lYP"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Band" image="first" id="OXI-BA-4tv"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L7H-1p-x6j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="108" y="676"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+    </resources>
+</document>

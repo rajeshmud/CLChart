@@ -13,3 +13,6 @@ Candlestick
 Cubic line
 Custom units
 Custom views
+
+
+![alt text](CLChart/CLChartScreenShots/LineChart1.png "Description goes here")
